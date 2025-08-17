@@ -4,7 +4,7 @@ AI-OS is my vision of a modern operating system interface where artificial intel
 
 ## 🎥 Demo
 
-https://github.com/Canyildiz1386/AI-OS/demo.mov
+https://github.com/Canyildiz1386/AI-OS/media/demo.mov
 
 Watch the demo video above to see AI-OS in action! The demo showcases:
 - Natural language command processing in the terminal
