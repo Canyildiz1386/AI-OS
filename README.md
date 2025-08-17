@@ -4,6 +4,10 @@ AI-OS is my vision of a modern operating system interface where artificial intel
 
 ## 🎥 Demo
 
+<video src="media/demo_compressed.mp4" controls width="720" poster="" style="max-width: 100%; height: auto;">
+  Your browser does not support the video tag. You can download the video here: <a href="media/demo_compressed.mp4">media/demo_compressed.mp4</a>.
+</video>
+
 - MP4 (compressed): [media/demo_compressed.mp4](media/demo_compressed.mp4)
 - Original MOV: [media/demo.mov](media/demo.mov)
 
