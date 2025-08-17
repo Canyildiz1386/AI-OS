@@ -115,6 +115,28 @@ body {
   .app-icon { top: 24px; left: 24px; }
 }
 
+/* File Manager */
+.file-manager { display: flex; flex-direction: column; width: 100%; }
+.fm-toolbar { display: flex; gap: 8px; padding: 8px; border-bottom: 1px solid #0b1220; background: #0e1526; }
+.fm-button { background: #111827; color: var(--text); border: 1px solid #0b1220; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.fm-button.primary { background: #2563eb; border-color: #1d4ed8; }
+.fm-main { display: grid; grid-template-columns: 1fr 2fr; height: 100%; }
+.fm-list { padding: 12px; border-right: 1px solid #0b1220; overflow: auto; }
+.fm-item { padding: 8px 10px; border: 1px solid #0b1220; border-radius: 6px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; background: #0c1323; }
+.fm-item .name { color: var(--text); }
+.fm-item .meta { color: var(--muted); font-size: 12px; }
+.fm-item .row-actions { display: flex; gap: 6px; }
+.fm-item .row-actions button { background: transparent; border: 1px solid #0b1220; color: var(--muted); border-radius: 4px; padding: 2px 6px; cursor: pointer; }
+.fm-editor { padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+.fm-field { display: flex; flex-direction: column; gap: 6px; }
+.fm-field input, .fm-field textarea { background: #0c1323; color: var(--text); border: 1px solid #0b1220; border-radius: 6px; padding: 8px; font-family: inherit; font-size: 14px; }
+.fm-actions { display: flex; gap: 8px; }
+
+@media (max-width: 900px) {
+  .fm-main { grid-template-columns: 1fr; }
+  .fm-editor { border-top: 1px solid #0b1220; }
+}
+
 /* Desktop look */
 :root {
   --bg: #0b1220;

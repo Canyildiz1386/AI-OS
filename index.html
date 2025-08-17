@@ -19,6 +19,17 @@
         <span class="app-icon-label">Terminal</span>
       </button>
 
+      <button id="fmIcon" class="app-icon" style="top: 140px; left: 48px;" title="File Manager" aria-label="Open File Manager">
+        <span class="app-icon-image" aria-hidden="true">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h4l1.5 2H19.5A1.5 1.5 0 0 1 21 8.5v8A1.5 1.5 0 0 1 19.5 18h-15A1.5 1.5 0 0 1 3 16.5v-10Z" fill="#1F2937" stroke="#111827"/>
+            <rect x="5.25" y="10" width="13.5" height="1.5" rx="0.75" fill="#60A5FA"/>
+            <rect x="5.25" y="13" width="9.5" height="1.5" rx="0.75" fill="#34D399"/>
+          </svg>
+        </span>
+        <span class="app-icon-label">Files</span>
+      </button>
+
       <div id="terminalWindow" class="window hidden" role="dialog" aria-modal="false" aria-label="Terminal window">
         <div class="window-titlebar" id="terminalTitlebar">
           <div class="window-controls">
@@ -34,6 +45,42 @@
             <div class="terminal-input-row">
               <span id="terminalPrompt" class="prompt">user@ai-os:~$</span>
               <input id="terminalInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Terminal input" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fmWindow" class="window hidden" role="dialog" aria-modal="false" aria-label="File Manager window">
+        <div class="window-titlebar" id="fmTitlebar">
+          <div class="window-controls">
+            <button id="fmBtnClose" class="btn close" title="Close" aria-label="Close file manager"></button>
+            <button id="fmBtnMin" class="btn minimize" title="Minimize" aria-label="Minimize file manager"></button>
+            <button id="fmBtnMax" class="btn maximize" title="Maximize" aria-label="Maximize file manager"></button>
+          </div>
+          <div class="window-title">File Manager</div>
+        </div>
+        <div class="window-content">
+          <div class="file-manager" id="fileManager">
+            <div class="fm-toolbar">
+              <button id="fmNewFile" class="fm-button" aria-label="Create new file">New File</button>
+              <button id="fmRefresh" class="fm-button" aria-label="Refresh files">Refresh</button>
+            </div>
+            <div class="fm-main">
+              <div class="fm-list" id="fmList" aria-label="Files list"></div>
+              <div class="fm-editor hidden" id="fmEditor" aria-label="Editor">
+                <div class="fm-field">
+                  <label for="fmFilename">Name</label>
+                  <input id="fmFilename" type="text" placeholder="example.txt" autocomplete="off" />
+                </div>
+                <div class="fm-field">
+                  <label for="fmContent">Content</label>
+                  <textarea id="fmContent" rows="10" placeholder="Type here..."></textarea>
+                </div>
+                <div class="fm-actions">
+                  <button id="fmSave" class="fm-button primary">Save</button>
+                  <button id="fmCancel" class="fm-button">Cancel</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
