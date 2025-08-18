@@ -4,9 +4,7 @@ AI-OS is my vision of a modern operating system interface where artificial intel
 
 ## 🎥 Demo
 
-<video src="https://res.cloudinary.com/dyswlnkhz/video/upload/v1755512257/demo_A1aIT6OY_tehghr.mp4" controls width="720" style="max-width: 100%; height: auto;">
-  Your browser does not support the video tag. You can <a href="https://res.cloudinary.com/dyswlnkhz/video/upload/v1755512257/demo_A1aIT6OY_tehghr.mp4">view the video here</a>.
-</video>
+[🎥 Watch demo](https://res.cloudinary.com/dyswlnkhz/video/upload/v1755512257/demo_A1aIT6OY_tehghr.mp4)
 
 
 Watch the demo video above to see AI-OS in action! The demo showcases:
