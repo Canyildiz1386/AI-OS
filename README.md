@@ -4,11 +4,11 @@ AI-OS is my vision of a modern operating system interface where artificial intel
 
 ## 🎥 Demo
 
-<video src="media/output.mp4" controls width="720" poster="" style="max-width: 100%; height: auto;">
-  Your browser does not support the video tag. You can download the video here: <a href="media/output.mp4">media/demo_compressed.mp4</a>.
+<video src="media/demo.mp4" controls width="720" poster="" style="max-width: 100%; height: auto;">
+  Your browser does not support the video tag. You can download the video here: <a href="media/demo.mp4">media/demo_compressed.mp4</a>.
 </video>
 
-- MP4 (compressed): [media/demo_compressed.mp4](media/output.mp4)
+- MP4 (compressed): [media/demo.mp4](media/demo.mp4)
 
 Watch the demo video above to see AI-OS in action! The demo showcases:
 - Natural language command processing in the terminal
